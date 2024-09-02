@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+.welcome {
+    background-image: url("image.png");
+    color: white;
+}
+
+.welcome  h1 {
+    margin-top: 0;
+}
+
+.welcome .container {
+    padding: 100px;
+}
+
+.welcome button {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.welcome button:hover {
+    background-color:burlywood;
+}
+
+.feature .container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.feature .container .f1, .f2 {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.f1:hover, .f2:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: lightgrey;
+    padding: 20px;
+}
